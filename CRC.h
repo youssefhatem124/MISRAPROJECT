@@ -9,8 +9,9 @@
 #ifndef CRC_H_
 #define CRC_H_
 #include "Basic_Types.h"
+u8 rand_(void);
 void SECR_CrcPolynomialGenerate(u32* PolynomialPtr,u8 CrcLengthInBits);
-void SECR_GnerateCrc(const u8* PayloadPtr,u16 PayloadLength, u16* CrcPtr, u32 CrcPoly);
+void SECR_GnerateCrc(const u8 PayloadPtr[], u16 PayloadLength, u16* CrcPtr, u32 CrcPoly);
 
 
 

@@ -17,4 +17,4 @@ typedef unsigned long int u32;
 
 
 
-#endif /* BASICTYPES_H_ */
+#endif
